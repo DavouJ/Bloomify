@@ -15,7 +15,7 @@ import '../../src/index.css'
 // Basic page CSS
 const layoutStyle = {
   backgroundColor: 'var(--background-color)',
-  padding: 15,
+  margin: "auto !important",
   justifyContent: "center",
 
 
@@ -42,8 +42,8 @@ const Dashboard = () => {
         className='content-container'>
         <h1 id='dash-header' >Welcome back {userName || 'Guest'}!</h1>
         <Flex style={layoutStyle}  >
-          <Row sm={24}  >
-            <Col sm={24} md={15} style={{ marginLeft: 8, marginRight: 8 }}>
+          <Row xs={24} sm={24} md={24} >
+            <Col xs={24} sm={24} md={15} style={{ marginLeft: 8, marginRight: 8 }}>
               <Row gutter={16} style={{ marginBottom: 16 }}>
                 <Col xs={24} sm={24} md={24} lg={24} xl={24} style={{ marginBottom: 16 }}>
                   {/* Assuming DashPlantCard is to be rendered for each plant. Adjust if it's just one card. */}
