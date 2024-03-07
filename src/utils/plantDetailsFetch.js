@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = `sk-2KiZ65dfa09c6ebac4396`;
+const API_KEY = `sk-BynQ65ea04fbcdce64496`;
 
 export default {
   getPlantDetails: async function (plantId) {

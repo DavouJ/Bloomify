@@ -82,6 +82,7 @@ const PlantOfTheDay = () => {
         >
             <Card.Meta title={localStorage.getItem("nameKey")} description={localStorage.getItem("descKey")} />
         </Card>
+        </a> 
         {/* plant profile modal (hidden at first) */}
         {selectedPlantModal.isVisible && selectedPlantModal.plant && (
                 <NewPlantProfile
@@ -91,7 +92,7 @@ const PlantOfTheDay = () => {
                     onClose={() => setSelectedPlantModal({ ...selectedPlantModal, isVisible: false })}
                 />
             )}
-        </a> 
+        
         </>
     );
 };

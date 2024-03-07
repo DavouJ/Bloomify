@@ -1,5 +1,6 @@
 .dashPlantCardContainer .ant-card-body {
     padding-bottom: 2em !important;
+    height: 220px;
 }
 
 .dashPlantCardContent {
